@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu
+FROM ubuntu:trusty
 RUN \
     sudo add-apt-repository ppa:k-dg/litecoin && \
     sudo apt-get update && \
